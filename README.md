@@ -27,3 +27,45 @@ Using CLI:
 
 /highest-gpa:
 ![](./assets/highest-gpa-cli-before.png)
+
+
+# Flame graphs
+/all-student
+![](./assets/flame-all-students.png)
+
+/all-student-name
+![](./assets/flame-all-students-name.png)
+
+/highest-gpa
+![](./assets/flame-highest-gpa.png)
+
+# After optimization
+
+
+/all-student (`getAllStudentsWithCourses()`)
+Profiler Result Comparison:
+![](./assets/profiler-getAllStudentsWithCourses.png)
+
+Jmeter Result:
+![](./assets/jmeter-cli-all-student-after.png)
+
+
+/all-student-name (`joinStudentNames()`)
+Profiler Result Comparion:
+![](./assets/profiler-joinStudentNames.png)
+
+Jmeter Result:
+![](./assets/jmeter-cli-all-student-name-after.png)
+
+/highest-gpa
+Profiler Result Comparion:
+![](./assets/profiler-findStudentWithHighestGpa.png)
+
+Jmeter Result:
+![](./assets/jmeter-cli-highest-gpa-after.png)
+
+
+
+
+
+
